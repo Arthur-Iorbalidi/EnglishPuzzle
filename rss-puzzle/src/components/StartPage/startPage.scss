@@ -1,0 +1,43 @@
+.wrapperStartPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    background-color: #bacfd2;
+    padding: 10px;
+}
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .discription {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+.startWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .greeting {
+        font-size: 3.5rem;
+    }
+    .startBtn {
+        font-size: 2.5rem;
+        color: #fff;
+        padding: 15px 80px;
+        background-color: #777ddb;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}
