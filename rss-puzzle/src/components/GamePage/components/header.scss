@@ -1,0 +1,47 @@
+.header {
+    max-width: 1280px;
+    background-color: #95bcc1;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 20px;
+    .navWrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .selectName {
+            font-size: 2rem;
+        }
+        .select {
+            width: 60px;
+            height: 30px;
+            font-size: 2rem;
+            border-radius: 10px;
+            .optionLevel {
+                font-size: 2rem;
+            }
+        }
+    }
+    .header_btn {
+        width: 55px;
+        cursor: pointer;
+        border: 5px solid #fff;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    .enable{
+        opacity: 0.4;
+    }
+    .active {
+        opacity: 0.4;
+        pointer-events: none;
+    }
+    .header_btnsWrapper {
+        display: flex;
+        gap: 20px;
+    }
+}
